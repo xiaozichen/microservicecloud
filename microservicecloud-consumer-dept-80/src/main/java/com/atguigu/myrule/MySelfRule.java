@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RoundRobinRule;
 
-//@Configuration
+@Configuration
 public class MySelfRule
 {
 	@Bean

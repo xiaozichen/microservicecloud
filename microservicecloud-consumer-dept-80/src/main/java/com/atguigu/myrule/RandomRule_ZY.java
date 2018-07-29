@@ -32,7 +32,7 @@ public class RandomRule_ZY extends AbstractLoadBalancerRule
 				return null;
 			}
 			List<Server> upList = lb.getReachableServers();
-			List<Server> allList = lb.getAllServers();
+			List<Server> allList = lb.getAllServers();//
 
 			int serverCount = allList.size();
 			if (serverCount == 0) {
