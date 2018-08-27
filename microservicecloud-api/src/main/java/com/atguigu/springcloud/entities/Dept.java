@@ -2,6 +2,7 @@ package com.atguigu.springcloud.entities;
 
 import java.io.Serializable;
 
+import com.sun.xml.internal.stream.StaxErrorReporter;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
