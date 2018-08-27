@@ -24,6 +24,7 @@ public class Dept implements Serializable// entity --orm--- db_table
 	{
 		super();
 		this.dname = dname44;
+		System.err.println("88888888888888888");
 	}
 	
 	
