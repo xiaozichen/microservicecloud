@@ -29,6 +29,7 @@ public class Dept implements Serializable// entity --orm--- db_table
 
     public static void main(String[] args) {
         Dept dept = new Dept();
+
         dept.setDb_source("22222222").setDeptno(33333l).setDname("0000");
 
     }
